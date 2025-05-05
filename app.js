@@ -34,25 +34,27 @@ const listSchema = {
 const List = mongoose.model("List", listSchema);
 app.get("/", function (req, res) {
     Item.find({}, function (err, foundItems) {
-        if (foundItems.length === 0) {
+        if (err) {
+            console.log("Error finding items:", err);
+            res.status(500).send("Database error");
+        } else if (!foundItems || foundItems.length === 0) {
             Item.insertMany(defaultItems, function (err) {
                 if (err) {
-                    console.log(err);
+                    console.log("Error inserting default items:", err);
+                } else {
+                    console.log("Successfully saved default items to DB.");
                 }
-                else {
-                    console.log("Successfully savevd default items to DB.");
-                }
+                res.redirect("/");
             });
-            res.redirect("/");
-        }
-        else {
+        } else {
             res.render("list", {
-                listTitle: "Today"
-                , newListItems: foundItems
+                listTitle: "Today",
+                newListItems: foundItems
             });
         }
     });
 });
+
 app.get("/:customListName", function (req, res) {
     const customListName = _.capitalize(req.params.customListName);
     List.findOne({
