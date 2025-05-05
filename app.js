@@ -9,10 +9,15 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 app.use(express.static("public"));
-mongoose.connect("mongodb://127.0.0.1:27017/todolistDB", {
-    useNewUrlParser: true
-    , useUnifiedTopology: true
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}).then(() => {
+  console.log("✅ Connected to MongoDB Atlas");
+}).catch((err) => {
+  console.error("❌ Connection error:", err);
 });
+
 const itemsSchema = {
     name: String
 };
