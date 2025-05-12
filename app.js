@@ -1,6 +1,6 @@
 //jshint esversion:6
 require('dotenv').config();
-console.log("MONGODB_URI is:", process.env.MONGODB_URI);
+console.log("MONGO_URI is:", process.env.MONGO_URI);
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
