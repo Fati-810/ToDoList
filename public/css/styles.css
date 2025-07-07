@@ -28,6 +28,7 @@ h1 {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #F1F1F1;
+   font-size: 19px;
 }
 
 .item:last-child {
@@ -74,9 +75,9 @@ input[type="text"] {
   top: 10px;
   border: none;
   background: transparent;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 200;
-  width: 313px;
+  width: 277px;
 }
 
 input[type="text"]:focus {
@@ -93,4 +94,35 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+}
+
+.edit-icon {
+  width: 24px;  /* or try 28px or 32px for larger icon */
+  height: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.check-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #A683E3;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.edit-input {
+  width: 50%;
+  max-width: 300px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.edit{
+    background-color: white;
 }
