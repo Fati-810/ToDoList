@@ -6,7 +6,7 @@ The ToDo List website is a simple and functional web application that allows use
 
 ✔️Add new tasks with a single input.
 
-✔️Edit tasks easily as you want.
+✔️Edit tasks easily.
 
 ✔️Tasks are stored and displayed immediately.
 
