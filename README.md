@@ -1,6 +1,6 @@
 # ToDoList
 
-The ToDo List website is a simple and functional web application that allows users to manage daily tasks efficiently. Users can add, view, and delete tasks, helping them stay organized and focused throughout the day.
+The ToDo List website is a **simple** and **functional web application** that allows users to manage daily tasks efficiently. Users can add, view, and delete tasks, helping them stay **organized** and **focused** throughout the day.
 
 # Features:
 
