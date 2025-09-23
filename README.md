@@ -4,17 +4,17 @@ The ToDo List website is a simple and functional web application that allows use
 
 # Features:
 
-✔️Add new tasks with a single input.
+➕Add new tasks with a single input.
 
-✔️Edit tasks easily.
+✏️Edit tasks easily.
 
-✔️Tasks are stored and displayed immediately.
+⚡Tasks are stored and displayed immediately.
 
-✔️Remove completed or unwanted tasks.
+🗑️Remove completed or unwanted tasks.
 
-✔️Responsive design for easy use across devices.
+📱Responsive design for easy use across devices.
 
-✔️Backend database stores tasks persistently.
+🗄️Backend database stores tasks persistently.
 
 # Technical Overview: (Behind the Scenes)
 
