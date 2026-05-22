@@ -34,9 +34,9 @@ https://todolist-owkq.onrender.com/
 ## Contact:
 If you'd like to see more of my work, connect with me through my portfolio:
 
-Developer: Fatimah Ali
-Website: https://fatimahdigitaledge.com
-GitHub: https://github.com/Fati-810
+**Developer:** Fatimah Ali  
+**Website:** https://fatimahdigitaledge.com  
+**GitHub:** https://github.com/Fati-810
 
 ## License:
 This project is for educational and portfolio purposes.
