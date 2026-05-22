@@ -2,7 +2,7 @@
 
 The ToDo List website is a **simple** and **functional web application** that allows users to manage daily tasks efficiently. Users can add, view, and delete tasks, helping them **stay organized** and **focused** throughout the day.
 
-# Features:
+## Features:
 
 ➕Add new tasks with a single input.
 
@@ -16,7 +16,7 @@ The ToDo List website is a **simple** and **functional web application** that al
 
 🗄️Backend database stores tasks persistently.
 
-# Technical Overview: (Behind the Scenes)
+## Technical Overview: (Behind the Scenes)
 
 HTML & CSS: Structures the user interface and styles the task list layout.
 
@@ -28,5 +28,15 @@ EJS Templating: Dynamically renders tasks from the database onto the web page.
 
 Mongoose: Provides a schema-based solution for managing data interactions.
 
-# Link:
+# Preview:
 https://todolist-owkq.onrender.com/
+
+## Contact:
+If you'd like to see more of my work, connect with me through my portfolio:
+
+Developer: Fatimah Ali
+Website: https://fatimahdigitaledge.com
+GitHub: https://github.com/Fati-810
+
+## License:
+This project is for educational and portfolio purposes.
