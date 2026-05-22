@@ -28,7 +28,7 @@ EJS Templating: Dynamically renders tasks from the database onto the web page.
 
 Mongoose: Provides a schema-based solution for managing data interactions.
 
-# Preview:
+## Preview:
 https://todolist-owkq.onrender.com/
 
 ## Contact:
