@@ -18,15 +18,15 @@ The ToDo List website is a **simple** and **functional web application** that al
 
 ## Technical Overview: (Behind the Scenes)
 
-HTML & CSS: Structures the user interface and styles the task list layout.
+**HTML & CSS:** Structures the user interface and styles the task list layout.
 
-Node.js & Express: Handles server-side logic and routing.
+**Node.js & Express:** Handles server-side logic and routing.
 
-MongoDB: Stores the user’s tasks in a cloud database.
+**MongoDB:** Stores the user’s tasks in a cloud database.
 
-EJS Templating: Dynamically renders tasks from the database onto the web page.
+**EJS Templating:** Dynamically renders tasks from the database onto the web page.
 
-Mongoose: Provides a schema-based solution for managing data interactions.
+**Mongoose:** Provides a schema-based solution for managing data interactions.
 
 ## Preview:
 https://todolist-owkq.onrender.com/
